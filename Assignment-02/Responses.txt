@@ -1,1 +1,17 @@
+ In the responses.txt file, please answer the following questions:
 
+
+What is a directory, and what is its relationship to files?
+
+	A directory is a hierarchical structural way of organization in relation to digital file systems, in other words, its a "folder".
+
+How are VCS useful?
+
+	Version control systems allow changes in the file to be tracked, along with making collaborations easier because the changes are tacked making the work that is done
+visible and accessible to others.
+
+Do you have a favorite artistic medium? Why is it your favorite?
+	
+	I personally don't have a favorite medium yet that I work with. I try to mix back and forth between fine and digital art-making. However, a medium that is one of my
+favorites for viewing, would be marble sculptures. I am amazed by the abilities of artists who can make stone into such soft-looking material. Greek statues show the intricate
+details like indents on the skin or the crinkle of fabric, which is just jaw-dropping to me. 
