@@ -1,0 +1,18 @@
+
+What is the relationship between an IP address and the DNS?
+
+    DNS or Domain Name System associates a name with the corresponding IP Address.
+    Such as giving a long-numbered IP address with the name "www.example.com".
+    The computer will look up the domain name to get the associated IP address.
+
+What is a cookie?
+
+    Cookies are the data collected by websites to remember who you are.
+    It's a number that defines who the person is logging in as or looking at the website. 
+
+What are the three essential parts of a URL?
+
+    The three essential parts of an URL are Protocol, Domain, and Path. 
+    Protocol: the communication with a web server
+    Domain: unique naming of the URL
+    Path: Navigation of the directories.
