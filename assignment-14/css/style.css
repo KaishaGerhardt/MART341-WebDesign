@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+content: --;
+clear: both;
+display: table;
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 10%}
+    .col-2 {width: 30%}
+    .col-3 {width: 30%}
+    .col-4 {width: 30%}
+    
+    div > img{
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* for moble phones */
+    [class*= "col-"] {
+        width: 100%;
+    }
+
+    div > img{
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+nav{background-blend-mode: lavender;
+    color: #afe2ff;
+    padding: 5%;
+    text-align: center;
+    border: 5px white solid;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+}
+
+#header{
+    background-image: url("../images/tighrope.jpg");
+}
+
+h1{
+    color: #333;
+    font-family: CaviarDreams;
+    font-size: 150px;
+    letter-spacing: 0.3em;
+}
+
+#first-bar {
+    margin-top: 3em;
+    padding: 1em;
+}
+
+#title:hover{
+    letter-spacing: 1em;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: ostrich-regular;
+}
+
+.titleBorder{
+    height: 300px;
+    background-color: rgb(0, 3, 1);
+    color: black;
+}
+
+.titleBorder:hover{
+    background-color: #000000;
+    color: #ffffff;
+    text-indent: 1em;
+    font-family: CaviarDreams;
+}
+
+.subtitle{
+    padding-top: 50px;
+    font-size: 75px;
+    margin: center;
+}
+
+.content-paragraph{
+    margin: auto;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 100px;
+    max-width: 900px;
+    font-family: CaviarDreams;
+}
+
+.content-paragraph2{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: ostrich-regular ;
+    line-height: 40px;
+}
+
+.poem-link{
+    text-decoration: none;
+    color: #75d3eb;
+}
+.poem-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.poem-link:visited{
+    color: #ffffff;
+}
+
+.image {
+    display: inline;
+    width: 50%;
+    padding-left: 5px;
+}
+
+img {
+    border: 20px solid #010e29;
+}
+
+#img-link:hover{
+    border: 50px solid #7fb5fc;
+}
+
+
+/* Menu */
+header {
+    position: fixed;
+    top: 0px;
+    background-color: rgb(0, 0, 0); 
+    margin-top: 0;
+    height: 4em;
+    width: 99%;
+    text-align: right;
+    font-family: CaviarDreams;
+    padding-right: 3em;
+}
+
+/* Set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #000000;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name {
+    color: #ffffff;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 5em;
+    letter-spacing: 0.3em;
+    float: left;
+    font-weight: bold;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #c22e67;
+    color: #ffffff;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    color: #752b4a;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: white;
+    background-color: #faccee;
+    border-radius: 1em 0em 1em 1em;
+}
+
+
+
+
+#foundation:hover{
+    border-radius: 1em 0em 1em 1em;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #E81C23;
+    height: 3em;
+    text-align: center;
+    font-family: Quicksand;
+    padding-top: 1em;
+}
+
+#footer-link {
+    color: #333;
+    font-weight: bold;
+}
