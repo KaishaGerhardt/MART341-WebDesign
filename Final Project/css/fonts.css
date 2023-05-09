@@ -1,0 +1,34 @@
+@font-face {
+    font-family:"CaviarDreams";
+    src: url('../fonts/CaviarDreams.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"Nobile-Italic";
+    src: url('../fonts/Nobile-Italic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"CaviarDreams_Italic";
+    src: url('../fonts/CaviarDreams_Italic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"FFF_Tusj";
+    src: url('../fonts/FFF_Tusj.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"ostrich-regular";
+    src: url('../fonts/ostrich-regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
